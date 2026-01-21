@@ -1,0 +1,184 @@
+/*----Glodal----*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url(assets/imags/abstract-surface-textures-white-concrete-stone-wall.jpg);
+    color: #0a0a0a;
+    line-height: 1.6;
+    direction: rtl;
+    text-align:center;
+}
+/* الروابط */
+a {
+    text-decoration: none;
+     color: #ffffff;
+}
+a:hover{
+    color: #17a2b8;
+}
+/*----Header ----*/
+header{
+    font-size: #12283d;
+    padding: 2px 1px;
+    text-align: center;
+}
+header h1{
+    font-size: 100px;
+    color: #0a0a0a;
+    margin-bottom: 0.5px;
+ 
+}
+header p{
+    font-size: 20px;
+    color: #060e11;
+    
+}
+/* Navbar */
+.navbar{
+    background-color: #013268 !important;
+}
+.navbar-brand{
+     font-weight: bold;
+     color: #17a2b8 !important;
+}
+nav-link{
+    margin: 0.8px;
+}
+nav-link:hover{
+    color: #bae7e7 ;
+}
+/* الأقسام العامة */
+section{
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+/* قسم عن الموقع */
+#about p{
+    line-height: 1.8px;
+    font-size: 15px;
+}
+#about img{
+    max-width: 900px;/* حجم مناسب على الكمبيوتر */
+    width: 100%/* يملى الشاشة الموبايل*/;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0  0  20px rgba(0, 0, 0, 4);
+}
+/* الأزرار*/
+.btn-info{
+    background-color: #a1e1ee;
+    border: none;
+    color: #0c0c0c;
+}
+.btn-info:hover{
+    background-color: #138496;
+}
+/* الخدمات */
+#services .card{
+    border: none;
+    border-radius: 12px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+#services .card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 4);
+}
+#services h4{
+    color: #17a2b8;
+    box-sizing:unset;
+    margin-bottom:10px ;
+}
+/* الفيديو */
+#media video{
+    width: 60%;
+    max-width: 900px;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 5);
+}
+/* الجدول*/
+.table{
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+/* توسيط الجدول فى الصفحة */
+#table table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+/* حدود الجدول */
+#table table
+#table th
+#table td  
+{
+ border: 10px solid #0e0d0d;
+}
+#table th{
+    background-color: #8bb2d4;
+    color: #000;
+    font-weight: bold;
+}
+.table thead{
+    background-color: #7bbcf8;
+}
+.table th{
+    color: #141414;
+}
+.table td{
+    vertical-align: middle;
+}
+/*نموذج التواصل */
+#contact form{
+    max-width: 500px;
+    margin: auto;
+
+}
+.form-control{
+    background-color: #e7ecec;
+    border: 1px solid #1f3b55; 
+    color: #12283d;
+}
+.form-control::placeholder{
+    color: #0a0a0a;
+}
+.form-control:focus{
+    background-color: #6aaff0;
+    color: #ffffff;
+    border-color:#17a2b8;
+    box-shadow:none;
+}
+/*Footer*/
+footer{
+    background-color: #0b1724;
+    font-size: 20px;
+    color: rgb(238, 235, 235);
+    opacity: 0.85;
+}
+/*Model*/
+.modal-content{
+    border-radius: 200px;
+}
+.modal-header{
+    border-bottom: 2px solid #2f73b3;
+
+}
+.modal-title{
+    color: #2c4447;
+    
+}
+.btn-close-white{
+    filter: invert(1) brightness(200%);
+}
+/* استجابة للشاشات الصغيرة */
+
+#media video{
+    width: 100%;
+}
+
